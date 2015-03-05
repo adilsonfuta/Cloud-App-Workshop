@@ -7,6 +7,10 @@ Learn how to leverage the power of the cloud to build mobile and gaming applicat
 - Tim: tim.benroeck@microsoft.com
 - Phil: phaelion@microsoft.com
 
+<a name="share-pictures" />
+## Share your pictures ##
+Please upload any pictures you took during the workshop to the [MySkills4Africa - Luanda - Cloud-App-Workshop OneDrive](http://1drv.ms/18qsR9u)
+
 <a name="pre-requisites" />
 ## Pre-Requisites ##
 - **A Microsoft account:** A Microsoft account is required to access Microsoft services such as OneDrive, Xbox Live, Hotmail, Azure, etc.  If you have an @hotmail.com or @outlook.com email address then you already have a Microsoft account.  However, you do not need to have a Microsoft email address to have a Microsoft account. 
@@ -16,7 +20,8 @@ _Note: This will not change your email hosting or affect your current account.  
 
 - **A Microsoft Azure subscription:** A Microsoft Azure subscription allows you to provision cloud resources.  As part of this training you will receive a Microsoft Azure Pass which is good for one month or $100 USD worth of cloud compute or storage. 
 	- [Instructions on activating your Microsoft Azure Pass](http://aka.ms/azurepassvid)
-	- [Activate your Microsoft Azure Pass. ](http://www.microsoftazurepass.com/) 
+	- [Instructions on activating your Microsoft Azure Pass. ](AzurePassInstructions.md)
+		- **Video:** [How to activate your Microsoft Azure Pass. ](http://www.microsoftazurepass.com/) 
 
 <a name="agenda" />
 ## Agenda ##
@@ -45,7 +50,8 @@ _Note: This will not change your email hosting or affect your current account.  
 		- [Building a platformer](http://www.photonstorm.com/phaser/tutorial-making-your-first-phaser-game)
 		- [Building flappy bird](http://www.codevinsky.com/phaser-2-0-tutorial-flappy-bird-part-1/)
 		- [View more tutorials](http://www.lessmilk.com/phaser-tutorial/)
-- **Challenge:** Create and upload your game to an Azure Website. [FTP your site to Azure](http://blogs.msdn.com/b/tim/archive/2015/01/07/how-to-ftp-your-microsoft-azure-websites.aspx)
+- **Challenge:** Create and upload your game to an Azure Website. 
+	- [Instructions on how to FTP to Azure](http://blogs.msdn.com/b/tim/archive/2015/01/07/how-to-ftp-your-microsoft-azure-websites.aspx)
 
 <a name="agenda-day3" />
 ### Day 3 - Game Deployment and Source Control basics###
@@ -60,15 +66,64 @@ _Note: This will not change your email hosting or affect your current account.  
 
 <a name="agenda-day4" />
 ### Day 4 - JavaScript Development###
+- **[Presentation](Slides/NodeJS.pptx):** Node.js basics
 - JavaScript basics
-- Node.js basics
-- **Labs:**
-	- [nodeschool](http://nodeschool.io/#workshoppers)
-	- Make your own node app using some node modules
+- **Lab:**
+	- Learn javascript with the following [node school](http://nodeschool.io/#workshoppers) labs:
+		- javascripting (basic javascript)
+		- learnyounode (node)
+		- functional-javascript-workshop  (advanced javascript)
+- **Challenge:** 
+	- [Fibonacci Challenge:](fibonacci-challenge.md) 
+		- Create a Fibonacci module with a function that returns the first 10 numbers in the Fibonacci number sequence 
+		- Create a second function in the Fibonacci module that will return a section of the sequence based on a starting index. 
+	- [Sudoku Solver:](sudoku-challenge.md) Create Sudoku solver node module to solve: 
+```'158 2  6 2   8  9  3  7 8 2 6 74      4 6 7      19 5 4 9 3  2  2  5   8 7  9 413'```
 
 
+<a name="agenda-day5" />
+### Day 5 - APIs and Azure Mobile Services###
+- What is an API and why does it matter?
+- Using Azure Mobile Services to quickly make a backend for web and mobile services
+	- [Tim's blog on Azure Mobile Services](http://blogs.msdn.com/b/tim/archive/2014/03/28/azure-mobile-services.aspx)
+- **Lab:**
+	- Set up an Azure Mobile Service
+		- [Tutorial: How to create an Azure Mobile Service (and hook it up to a Windows app)](http://azure.microsoft.com/en-us/documentation/articles/mobile-services-html-get-started-data/#create-service)
+- **Challenges:**
+	- [Hook a web client up to your Azure Mobile Service and send it data](http://azure.microsoft.com/en-us/documentation/articles/mobile-services-html-how-to-use-client-library/)
+	- [Add user authentication to your Azure Mobile Service](http://azure.microsoft.com/en-us/documentation/articles/mobile-services-html-get-started-users/)
+	- [Limit users so they can only see their own data](http://azure.microsoft.com/en-us/documentation/articles/mobile-services-javascript-backend-service-side-authorization/)
 
+<a name="agenda-day6" />
+### Day 6 - Web Front End###
+- Using CSS to style your app
+	- Responsive design with [Twitter Bootstrap](http://getbootstrap.com/)
+- Using JavaScript in the browser with jQuery
+- **Lab:**
+	- Make a front end web application styled with Bootstrap
+		- [Bootstrap Getting Started](http://getbootstrap.com/getting-started/)
+		- [Better Bootstrap Tutorial](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/)
+		- [Bootstrap Tutorial](http://www.sitepoint.com/twitter-bootstrap-tutorial-handling-complex-designs/)
+		- [Bootstrap Quick Guide](http://www.tutorialspoint.com/bootstrap/bootstrap_quick_guide.htm)
+- **Challenge:**
+	- Use jQuery to add behavior to your page
+		- [Learn jQuery](http://learn.jquery.com/)
+		- [jQuery Tutorial](http://www.jquery-tutorial.net/)
+	- Hook up your front end to Azure Mobile Services
 
+<a name="agenda-day7" />
+### Day 7 - Client - Server Architecture###
+- **[Presentation](Slides/jQuery.pptx):** Adding website behavior with jQuery
+- Using Azure Mobile services
+	- Starter apps from Quick Start
+- **Lab:** 
+	- Add behavior to your website with jQuery
+		- [jQuery Tutorial](http://www.jquery-tutorial.net/)
+		- [Learn jQuery](http://learn.jquery.com/about-jquery/)
+		- [jQuery Homepage](http://jquery.com/)
+	- Hook up your front end app to Azure Mobile Services
+		- [Azure Mobile Services Documentation](http://azure.microsoft.com/en-us/documentation/services/mobile-services/)
 
+### Days 8 & 9 - HACKATHON!###
 
-
+### Day 10 - Hackathon Presentations###
